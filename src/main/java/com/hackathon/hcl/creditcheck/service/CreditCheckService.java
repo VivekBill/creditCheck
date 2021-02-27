@@ -1,8 +1,8 @@
 package com.hackathon.hcl.creditcheck.service;
 
-import com.hackathon.hcl.creditcheck.entity.Creditcheck;
+import com.hackathon.hcl.creditcheck.model.Creditcheck;
 
 public interface CreditcheckService {
-    Creditcheck getCreditcheck(CreditCheck);
+    Creditcheck getCreditcheck(CreditCheckRequest request);
     Creditcheck getCreditcheck();
 }
