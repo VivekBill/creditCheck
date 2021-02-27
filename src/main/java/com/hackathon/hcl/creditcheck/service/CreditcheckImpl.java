@@ -1,6 +1,6 @@
 package com.hackathon.hcl.creditcheck.service;
 
-import com.hackathon.hcl.creditcheck.entity.Sanctions;
+import com.hackathon.hcl.creditcheck.model.CreditCheck;
 import org.springframework.stereotype.Service;
 import com.hackathon.hcl.creditcheck.CreditCheckRequest;
 
